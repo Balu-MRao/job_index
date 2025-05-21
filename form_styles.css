@@ -1,0 +1,188 @@
+* {
+  @import url("https://fonts.cdnfonts.com/css/zasline");
+  font-family: "Zasline", sans-serif;
+}
+
+h1#main_head {
+  text-align: left;
+}
+body {
+  /* background: #3f5efb;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  ); */
+  background: #a3b3f7;
+  background: radial-gradient(
+    circle,
+    rgba(163, 179, 247, 1) 0%,
+    rgba(252, 154, 174, 1) 100%
+  );
+  color: blue;
+}
+
+fieldset {
+  border-radius: 10px;
+  width: 50%;
+}
+
+h1#main_head:hover {
+  background: #21eaed;
+  background: linear-gradient(
+    0deg,
+    rgba(33, 234, 237, 1) 0%,
+    rgba(22, 117, 79, 1) 23%,
+    rgba(199, 187, 58, 1) 100%,
+    rgba(219, 66, 135, 1) 56%,
+    rgba(228, 51, 69, 1) 100%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+input {
+  border-radius: 5px;
+  background-color: #8b0000;
+}
+p#fnameid {
+  display: none;
+}
+#fname:focus + #fnameid {
+  display: inline;
+  background-color: lightsalmon;
+}
+p#lnameid {
+  display: none;
+}
+#lname:focus + #lnameid {
+  display: inline;
+  background-color: lightsalmon;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+  background-color: blue;
+}
+input[type="radio"] + label {
+  color: red;
+}
+input[type="radio"]:checked + label {
+  font-size: 20px;
+  color: lightsalmon;
+}
+
+input[type="file"]#pp {
+  background-color: lightsalmon;
+}
+
+p#mail_p {
+  display: none;
+}
+
+input[type="email"]:focus + p#mail_p {
+  display: inline;
+  background-color: lightsalmon;
+}
+
+p#phonenum {
+  display: none;
+}
+input[type="tel"]:focus + #phonenum {
+  display: inline;
+  background-color: lightsalmon;
+}
+
+textarea#tarea {
+  background-color: blanchedalmond;
+}
+
+#countrylabel {
+  background-color: aquamarine;
+}
+
+#selectqual {
+  background-color: aquamarine;
+}
+
+#specializationid {
+  display: none;
+}
+
+#specialization:focus + #specializationid {
+  display: inline;
+  background-color: lightsalmon;
+}
+
+#yogid {
+  display: none;
+}
+
+#yog:focus + #yogid {
+  display: inline;
+  background-color: lightsalmon;
+}
+#lpa {
+  color: red;
+}
+
+#prefroleid {
+  display: none;
+}
+input#prefrole:focus + #prefroleid {
+  display: inline;
+  background-color: lightsalmon;
+}
+
+label#preloc {
+  color: red;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label#preloc {
+  cursor: pointer;
+  font-size: 20px;
+  color: blueviolet;
+}
+
+p#passid {
+  display: none;
+}
+
+input#pass:focus + p#passid {
+  display: inline;
+  background-color: lightsalmon;
+}
+p#conpassid {
+  display: none;
+}
+input#conpass:focus + #conpassid {
+  display: inline;
+  background-color: lightsalmon;
+}
+
+input#resume {
+  background-color: lightsalmon;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+input#submit {
+  color: beige;
+  background-color: black;
+}
+
+input[type="reset"] {
+  cursor: pointer;
+}
+
+input#reset {
+  color: beige;
+  background-color: black;
+}
